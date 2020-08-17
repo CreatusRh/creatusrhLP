@@ -1,0 +1,28 @@
+
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Creatus RH</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+    <body class="text-center">
+       <form class="form-signin" method="POST" action="https://smtl.gama.academy/leads/7f2b9634-dcac-11ea-91f1-99fb0c9231dc">
+            <h1><img src="" alt="Logo CREATUS RH" /></h1>
+         <label for="name" class="sr-only">Nome completo </label>
+            <input class="form-control" type="text" name="name" id="name"  pattern="^\D{2,}\s[\D\s]{2,}$"
+            title="Digite seu nome completo" class="input-padrao" required placeholder="Digite seu nome completo">
+         <label for="email" class="sr-only">Email</label>
+            <input class="form-control" type="email" name="email" id="email" required placeholder="Digite seu email">
+
+
+            <input name="redirectTo" type="hidden" value="#" />
+            <input name="debugMode" type="hidden" value="true" />
+         <button class="btn btn-lg btn-primary btn-block" type="submit">ENVIAR</button>
+     </form>
+    </body>
+</html>
